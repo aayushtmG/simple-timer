@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500&family=Orbitron:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Timer</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="timerContainer-wrapper">
+        <div class="timer-container" id="hourContainer"></div>
+        <div class="separator">:</div>
+        <div class="timer-container" id="minuteContainer"></div>
+        <div class="separator">:</div>
+        <div class="timer-container" id="secondContainer"></div>
+      </div>
+      <div class="button-container disappear">
+        <button id="startButton" class="btn">start</button>
+        <button id="stopButton" class="btn">stop</button>
+      </div>
+      <button id="resetButton" class="btn disappear">reset</button>
+      <button id="turnOff" class="btn">Turn Off!!</button>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
