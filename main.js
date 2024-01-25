@@ -12,7 +12,7 @@ const hourContainer = document.querySelector("#hourContainer");
 const target = document.querySelectorAll("span");
 const turnOff = document.querySelector("#turnOff");
 
-const audio = new Audio("/src/audio.wav");
+const audio = new Audio("./src/audio.wav");
 let timer; //VARIABLE FOR INTERVAL
 
 turnOff.classList.add("hidden");
